@@ -1,0 +1,49 @@
+:root {
+  --grey: #9E9E9E;
+}
+
+.v-main {
+  align-items: center;
+  display: flex;
+}
+
+.todo-screen {
+  .v-chip {
+    .v-badge {
+      margin-right: -10px;
+      margin-left: 10px;
+    }
+  }
+
+  .v-card {
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05);
+
+    .v-card-text {
+      overflow: auto;
+      max-height: calc(100vh - 500px);
+    }
+
+    .completed {
+      color: var(--grey);
+      opacity: 0.8;
+      text-decoration: line-through;
+    }
+  }
+
+  .v-list-item__prepend,
+  .v-list-item__append {
+    .v-icon {
+      opacity: 1;
+    }
+  }
+
+  .v-list-item-title {
+    white-space: wrap;
+  }
+
+  .btn-delete {
+    bottom: 0;
+    right: 10px;
+    position: absolute;
+  }
+}

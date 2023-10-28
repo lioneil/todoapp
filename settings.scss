@@ -1,0 +1,9 @@
+@forward 'vuetify/settings' with (
+  $button-color: green,
+  $button-font-weight: 700,
+  $application-background: linear-gradient(to top,  #3F77A4, #8BB6D0, #6E80B8 70%, #26447C),
+  $card-border-color: #E7E7E7,
+  $card-border-style: solid,
+  $card-border-width: 1px,
+  $card-border-radius: 8px,
+);
